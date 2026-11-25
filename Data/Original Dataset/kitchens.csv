@@ -1,0 +1,9 @@
+kitchen_id,kitchen_name,district,province,opened_date
+K01,Colombo 03,Colombo,Western,2023-06-01
+K02,Nugegoda,Colombo,Western,2023-09-01
+K03,Dehiwala,Colombo,Western,2023-11-01
+K04,Rajagiriya,Colombo,Western,2023-08-15
+K05,Kandy,Kandy,Central,2023-10-01
+K06,Negombo,Gampaha,Western,2023-12-01
+K07,Kurunegala,Kurunegala,North Western,2023-12-10
+K08,Galle,Galle,Southern,2025-06-15

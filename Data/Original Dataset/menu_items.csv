@@ -1,0 +1,43 @@
+item_code,item_name,category,current_price,unit_cost
+M101,Chicken Kottu,Kottu,1450,610
+M102,Cheese Kottu,Kottu,1690,760
+M103,Egg Kottu,Kottu,1150,460
+M104,Vegetable Kottu,Kottu,990,375
+M105,Mutton Kottu,Kottu,1990,1035
+M106,Dolphin Kottu,Kottu,1590,730
+M107,Seafood Kottu,Kottu,2190,1205
+M201,Chicken Rice & Curry,Rice & Curry,1250,550
+M202,Fish Rice & Curry,Rice & Curry,1290,595
+M203,Vegetable Rice & Curry,Rice & Curry,890,355
+M204,Chicken Biriyani,Rice & Curry,1890,1340
+M205,Mutton Biriyani,Rice & Curry,2390,1480
+M206,Lamprais,Rice & Curry,1790,895
+M301,Chicken Fried Rice,Fried Rice,1390,555
+M302,Mixed Fried Rice,Fried Rice,1790,805
+M303,Egg Fried Rice,Fried Rice,1050,380
+M304,Seafood Fried Rice,Fried Rice,2090,1085
+M305,Nasi Goreng,Fried Rice,1690,745
+M401,Crispy Chicken Burger,Burgers & Wraps,1590,795
+M402,Beef Burger,Burgers & Wraps,1890,1040
+M403,Chicken Shawarma,Burgers & Wraps,1150,530
+M404,Vegetable Roti Wrap,Burgers & Wraps,850,355
+M405,Paneer Wrap,Burgers & Wraps,1050,505
+M501,Fish Bun,Short Eats,180,65
+M502,Chicken Roll,Short Eats,220,75
+M503,Vegetable Roti,Short Eats,160,50
+M504,Egg Rolls (2),Short Eats,380,135
+M505,Patties (4),Short Eats,560,185
+M506,Isso Wade (3),Short Eats,690,275
+M601,Watalappan,Desserts,450,135
+M602,Chocolate Biscuit Pudding,Desserts,520,175
+M603,Caramel Pudding,Desserts,390,110
+M604,Faluda,Desserts,590,190
+M605,Kithul Pani Curd,Desserts,480,180
+M701,Iced Milo,Beverages,450,135
+M702,Iced Coffee,Beverages,490,125
+M703,Lime Juice,Beverages,290,50
+M704,Mango Lassi,Beverages,520,155
+M705,Soft Drink 400ml,Beverages,250,140
+M706,Bottled Water 500ml,Beverages,120,55
+M707,Plain Tea,Beverages,150,20
+M708,King Coconut,Beverages,280,110

@@ -1,0 +1,6 @@
+# Excel / Word temporary lock files (created while a file is open)
+~$*
+
+# Windows system files
+Thumbs.db
+desktop.ini
