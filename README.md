@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🍛 ZuuBites · Excel + SQL Capstone
+# ZuuBites · Excel + SQL Capstone
 
 **Turning three messy system exports from a Sri Lankan cloud-kitchen brand into answers managers can act on.**
 
@@ -14,32 +14,32 @@
 
 ---
 
-## 📖 The story
+## The story
 
 ZuuBites cooks kottu, rice & curry, fried rice, burgers, short eats, desserts and drinks in **8 delivery-only kitchens**. It sells through **4 channels**: App, Web, Phone, and two aggregator platforms (TukEats and DashLK).
 
 Until now, every report has been built by hand from system exports, and nobody trusts the numbers. As ZuuBites' first data analyst, I take every order from **1 Jan 2024 to 18 Dec 2025** and:
 
-1. 🧹 **Clean** the raw exports in Excel and Power Query
-2. 🗄️ **Load** them into a SQL Server database, then validate them
-3. 🔍 **Answer** nine managers' questions with SQL and Excel
-4. ✍️ **Recommend** a decision in a short memo
+1. **Clean** the raw exports in Excel and Power Query
+2. **Load** them into a SQL Server database, then validate them
+3. **Answer** nine managers' questions with SQL and Excel
+4. **Recommend** a decision in a short memo
 
 > *Part of the Zuu Crew "Zero to Data Analyst: Data Foundations" programme.*
 
 ---
 
-## 🔄 How the data flows
+## How the data flows
 
 ```mermaid
 flowchart LR
-    A[("📦 Raw CSV exports<br/>orders · order_items · customers")] --> B["🧹 Excel + Power Query<br/>clean, dedupe, standardise"]
-    R[("📋 Reference files<br/>kitchens · menu_items")] --> C
-    B --> C[("🗄️ SQL Server<br/>ZuuBites database")]
-    C --> D["✅ Validate<br/>row counts + checkpoints"]
-    D --> E["🔍 SQL analysis<br/>Q2 – Q7"]
-    D --> F["📊 Excel pivots & dashboard<br/>Q8 – Q9"]
-    E --> G["✍️ Memo to Head of Growth<br/>Q10"]
+    A[("Raw CSV exports<br/>orders · order_items · customers")] --> B["Excel + Power Query<br/>clean, dedupe, standardise"]
+    R[("Reference files<br/>kitchens · menu_items")] --> C
+    B --> C[("SQL Server<br/>ZuuBites database")]
+    C --> D["Validate<br/>row counts + checkpoints"]
+    D --> E["SQL analysis<br/>Q2 – Q7"]
+    D --> F["Excel pivots & dashboard<br/>Q8 – Q9"]
+    E --> G["Memo to Head of Growth<br/>Q10"]
     F --> G
 
     classDef raw fill:#fde2e2,stroke:#c0392b,color:#000
@@ -54,7 +54,7 @@ flowchart LR
 
 ---
 
-## 🗂️ The data model
+## The data model
 
 Five tables go into the `dbo` schema of the **ZuuBites** database.
 
@@ -137,7 +137,7 @@ xychart-beta horizontal
 ```
 
 <details>
-<summary><b>🔎 See all 24 checks</b></summary>
+<summary><b>See all 24 checks</b></summary>
 
 | # | File | Column | Check | Dimension | Rows | % rows |
 |--:|------|--------|-------|-----------|-----:|------:|
@@ -170,13 +170,13 @@ Rows used for %: orders 32,737 · order_items 73,033 · customers 5,745 (raw, be
 
 </details>
 
-### 🎯 From raw to clean: the checkpoints
+### From raw to clean: the checkpoints
 
 | Table | Raw rows | Clean rows (checkpoint) | Removed | Status |
 |-------|---------:|------------------------:|--------:|:------:|
-| 👤 customers | 5,745 | **5,600** unique people | 145 | ✅ cleaned |
-| 🧾 orders | 32,737 | **32,411** | 326 | 🔄 in progress |
-| 🍽️ order_items | 73,033 | **72,313** | 720 | 🔄 in progress |
+| customers | 5,745 | **5,600** unique people | 145 | ✅ cleaned |
+| orders | 32,737 | **32,411** | 326 | 🔄 in progress |
+| order_items | 73,033 | **72,313** | 720 | 🔄 in progress |
 
 **2025 checkpoint:** 18,305 delivered orders worth **Rs 59,928,441** in net revenue.
 
@@ -224,7 +224,7 @@ timeline
 
 ---
 
-## ❓ The questions I'm answering
+## The questions I'm answering
 
 ```mermaid
 pie showData
@@ -252,7 +252,7 @@ pie showData
 
 ---
 
-## 📏 Business rules used everywhere
+## Business rules used everywhere
 
 | Term | Rule |
 |------|------|
@@ -267,7 +267,7 @@ pie showData
 
 ---
 
-## 🗓️ Roadmap
+## Roadmap
 
 ```mermaid
 gantt
@@ -294,7 +294,7 @@ gantt
 
 ---
 
-## 📁 Repository structure
+## Repository structure
 
 ```text
 zuubites-excel-sql-capstone/
@@ -308,7 +308,7 @@ zuubites-excel-sql-capstone/
 └── README.md
 ```
 
-## 🌿 Branches
+## Branches
 
 ```mermaid
 gitGraph
