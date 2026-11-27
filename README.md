@@ -118,7 +118,7 @@ erDiagram
 
 ---
 
-## 🧹 How messy was the raw data?
+## How messy was the raw data?
 
 I profiled the three raw files with **24 checks across 21 columns and 5 quality dimensions**. These are the biggest problems, as **% of rows affected**:
 
