@@ -180,11 +180,11 @@ Rows used for %: orders 32,737 · order_items 73,033 · customers 5,745 (raw, be
 
 **2025 checkpoint:** 18,305 delivered orders worth **Rs 59,928,441** in net revenue.
 
-> 💡 **Key finding so far:** net revenue only matches the checkpoint when negative quantities are treated as data-entry sign errors and turned positive. Keeping them negative gives Rs 59,435,682, which is Rs 492,759 short.
+> 💡 _**Key finding so far:**_ net revenue only matches the checkpoint when negative quantities are treated as data-entry sign errors and turned positive. Keeping them negative gives Rs 59,435,682, which is Rs 492,759 short.
 
 ---
 
-## 🍽️ The business at a glance
+## The business at a glance
 
 <table>
 <tr>
@@ -337,7 +337,3 @@ gitGraph
 `feature/*` and `docs/report` → `develop` → `main` (final, submission-ready).
 
 ---
-
-<div align="center">
-
-</div>
