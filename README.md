@@ -6,15 +6,12 @@
 
 ![Excel](https://img.shields.io/badge/Excel-Power%20Query-217346?logo=microsoftexcel&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-T--SQL-CC2927?logo=microsoftsqlserver&logoColor=white)
-![Status](https://img.shields.io/badge/status-in%20progress-orange)
-![Deadline](https://img.shields.io/badge/deadline-06%20Dec%202026-blue)
-![Marks](https://img.shields.io/badge/marks-100-purple)
 
 </div>
 
 ---
 
-## The story
+## The Story
 
 ZuuBites cooks kottu, rice & curry, fried rice, burgers, short eats, desserts and drinks in **8 delivery-only kitchens**. It sells through **4 channels**: App, Web, Phone, and two aggregator platforms (TukEats and DashLK).
 
@@ -24,8 +21,6 @@ Until now, every report has been built by hand from system exports, and nobody t
 2. **Load** them into a SQL Server database, then validate them
 3. **Answer** nine managers' questions with SQL and Excel
 4. **Recommend** a decision in a short memo
-
-> *Part of the Zuu Crew "Zero to Data Analyst: Data Foundations" programme.*
 
 ---
 
@@ -54,7 +49,7 @@ flowchart LR
 
 ---
 
-## The data model
+## The Data Model
 
 Five tables go into the `dbo` schema of the **ZuuBites** database.
 
@@ -118,7 +113,7 @@ erDiagram
 
 ---
 
-## How messy was the raw data?
+## How Messy was the Raw Data?
 
 I profiled the three raw files with **24 checks across 21 columns and 5 quality dimensions**. These are the biggest problems, as **% of rows affected**:
 
@@ -224,7 +219,7 @@ timeline
 
 ---
 
-## The questions I'm answering
+## The Questions I'm Answering
 
 ```mermaid
 pie showData
@@ -252,7 +247,7 @@ pie showData
 
 ---
 
-## Business rules used everywhere
+## Business Rules used Everywhere
 
 | Term | Rule |
 |------|------|
@@ -294,7 +289,7 @@ gantt
 
 ---
 
-## Repository structure
+## Repository Structure
 
 ```text
 zuubites-excel-sql-capstone/
