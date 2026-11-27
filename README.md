@@ -340,6 +340,4 @@ gitGraph
 
 <div align="center">
 
-**Arundethie Wijerathne** · Zero to Data Analyst capstone · 2026
-
 </div>
